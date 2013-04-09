@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="serialized-form.html"
+   text-time="2006-04-27T14:21:19.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="673d6f6d7cdacb5a26b0d633d0144f0c"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="stylesheet.css"
+   text-time="2006-04-27T14:21:19.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="5e9a9b33187f474e19fcf636c5e35681"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="allclasses-frame.html"
+   text-time="2006-04-27T14:21:21.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="d8c650c6290c3017ec0d48df044315a2"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="overview-frame.html"
+   text-time="2006-04-27T14:21:21.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8d299b32c1b1f306c755ab374b78a3ce"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="packages.html"
+   text-time="2006-04-27T14:21:19.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="672483346ab57d3207a8ef71eb76b07d"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="overview-summary.html"
+   text-time="2006-04-27T14:21:19.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="862ed6c5ce065f0628179a4fe159903e"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-list"
+   text-time="2006-04-27T14:21:21.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="de9246a6b70e9b228dd6fabaab5372d4"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="overview-tree.html"
+   text-time="2006-04-27T14:21:21.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="3610ffdbfbbcdc444b9cba0cb36ff7f2"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   name="index-files"
+   kind="dir"/>
+<entry
+   name="org"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="index.html"
+   text-time="2006-04-27T14:21:19.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="9fda70ad8e85c74ed2cb67382e962da0"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="deprecated-list.html"
+   text-time="2006-04-27T14:21:21.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="f1660e4a4e52aced57b592845e9de62a"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="help-doc.html"
+   text-time="2006-04-27T14:21:19.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b68e874acd9a6eb7a45faadd00d7394f"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

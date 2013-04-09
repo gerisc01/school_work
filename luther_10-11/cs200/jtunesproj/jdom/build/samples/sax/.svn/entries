@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/samples/sax"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="DocumentReader.java"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="35fb62919f856ed629f2f2b22a2cb72b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLFilterBase.java"
+   text-time="2006-04-27T14:20:48.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fe535575befb99fce59479293c89c620"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="ReaderTest.java"
+   text-time="2006-04-27T14:20:47.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="495cc533a4e09f621ea39c139fd1fe51"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLReaderBase.class"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="eb4c8aa723e1231c0e71f33b0cbc93d6"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="FilterTest.class"
+   text-time="2006-04-27T14:20:47.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="7cb5aee869af820056e7e0ccd1ffe1ac"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="DataFormatFilter.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="152cc898d25f8eb9d40a0f321ba90b7a"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="XMLReaderBase.java"
+   text-time="2006-04-27T14:20:46.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="23a320e7f758063579b94fee750a68ef"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DataUnformatFilter.class"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="576b44d86d546a3931a53d9d10ee76fe"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="test1.xml"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fa0e8d3b82360e3b70460b7fb9fef692"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="test2.xml"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fa6d6193090cad87111d654feadc24e6"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLWriter.class"
+   text-time="2006-04-27T14:20:47.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="54760d6d29bf9b150e16dc2d08d95635"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="DocumentReader.class"
+   text-time="2006-04-27T14:20:47.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="123e0e8fe29b5cff89225f344c330f69"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="FilterTest.java"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="79be7aefdacedf4319971f8b0f5d23d1"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLFilterBase.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="59893e073ccd3df9c12534686bd428c6"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="ReaderTest.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="aba2f11e5f8b76ad9958520fe6436439"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="DataFormatFilter.java"
+   text-time="2006-04-27T14:20:47.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b1c19866709c30ecaed47da39fe7d161"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DataUnformatFilter.java"
+   text-time="2006-04-27T14:20:49.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="1f8616c675454725edb078c0b329fffc"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLWriter.java"
+   text-time="2006-04-27T14:20:47.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="a5df1f5c332eb70b2801e85b69994429"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

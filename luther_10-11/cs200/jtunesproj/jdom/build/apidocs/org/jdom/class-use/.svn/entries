@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/class-use"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="CDATA.html"
+   text-time="2006-04-27T14:21:15.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="982a4393fb819580912abf27c6aa44d5"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="ProcessingInstruction.html"
+   text-time="2006-04-27T14:21:18.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8d9bc0594f64b0e76976f23a0368b003"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Document.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b880e6aa1f537479c21f25aa6356d63f"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMFactory.html"
+   text-time="2006-04-27T14:21:12.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="cb9336a796c52b34d9d286bdd4950227"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="IllegalDataException.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="27341e0c6e798464ddbb3ec35dde1d57"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Text.html"
+   text-time="2006-04-27T14:21:14.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8c5393aab69af8f540cb7548369a6bb7"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DefaultJDOMFactory.html"
+   text-time="2006-04-27T14:21:14.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="93af126fb4775e9ebc1c8cbf80375862"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Parent.html"
+   text-time="2006-04-27T14:21:18.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="1d27ce73dc9a51a51e230e75f3263080"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Element.html"
+   text-time="2006-04-27T14:21:14.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b247e25b2863317917fb33d7e47b35ef"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="IllegalNameException.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="56fe7fbcf828ce3cfd991c3c7b1798a1"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="UncheckedJDOMFactory.html"
+   text-time="2006-04-27T14:21:15.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="84df4fe618cdd651cccbc17779cb5639"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Namespace.html"
+   text-time="2006-04-27T14:21:14.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="be7d88bc920538c56d178b4cabb27de7"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DataConversionException.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="d33840a29328fc77139de87076349985"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="IllegalTargetException.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="47fafa5c9a5ca15b18a88893d6f3d02f"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="IllegalAddException.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="ea3005ea53e7504558385eab96305bb6"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Comment.html"
+   text-time="2006-04-27T14:21:14.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="47da0e3a33399e9e6aa6f58315eac1d5"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Attribute.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="10040fea47392188da2c6218a82d5532"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DocType.html"
+   text-time="2006-04-27T14:21:15.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="37ab45cc6e60b20f9d257519df989c2b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMException.html"
+   text-time="2006-04-27T14:21:16.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="319aadd60d8ace24961ddf85ea995742"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="EntityRef.html"
+   text-time="2006-04-27T14:21:15.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="cce00864f2abdb74b44a3ee29c4b8b55"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Content.html"
+   text-time="2006-04-27T14:21:15.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="72f3876595937bc59a22f1cd03a9017f"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Verifier.html"
+   text-time="2006-04-27T14:21:18.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="46adaa875e9f47ed1ea69617f246d955"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

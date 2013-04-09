@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/adapters"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   name="class-use"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="OracleV1DOMAdapter.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="e3ba1e3c5e4e91f664b51fa1bd37553f"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="OracleV2DOMAdapter.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="c0c8a60d56631e66931fe19a713aa5ec"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XML4JDOMAdapter.html"
+   text-time="2006-04-27T14:21:08.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="7eac776803c20644e89b6d944c6ce49e"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DOMAdapter.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="44f5af4fa0f48711f4e726a26e08583a"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JAXPDOMAdapter.html"
+   text-time="2006-04-27T14:21:05.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="0176b17d2f35804741b6a513b3320636"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-frame.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="3b4ea8f2a13d0088da8bfcae823a1423"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="AbstractDOMAdapter.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="e5116ef6c78603e3fbaa18c3241de1d9"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-use.html"
+   text-time="2006-04-27T14:21:05.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="5a314409ea0f171ac1d99c43918e125d"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-summary.html"
+   text-time="2006-04-27T14:21:08.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fca68d57d90ba4e6ad726da4a3199a59"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-tree.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="1110927ee35a99f1b436ac8e428e6818"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XercesDOMAdapter.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="57e0ae9aba1c24aa72b53f69ad5c1373"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="CrimsonDOMAdapter.html"
+   text-time="2006-04-27T14:21:06.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="a2ac675745739ddbbcaacc0f37cf34ee"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

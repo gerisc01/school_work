@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/input/class-use"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="BuilderErrorHandler.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="0f2cc2813c7e323b40eeca7a4797b238"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilder.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="ca4bd8ed42be10fcd8e2e55084688a7b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMParseException.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="db4881decd8e93ad6d00f6bdb505bff7"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DOMBuilder.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="4c2cbc2cfa0f40988deb92f2e4db4586"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXHandler.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="84ec2cfa86996320468de46900e5a06a"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

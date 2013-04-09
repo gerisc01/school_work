@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/input"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   name="class-use"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="BuilderErrorHandler.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="34038db01f936e776820032465cb5c17"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilder.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b6243c704de4ba41c7e0e2e506882601"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMParseException.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="9e1777dc56c656ac70c37cd0397bc131"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-frame.html"
+   text-time="2006-04-27T14:21:00.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="3b575e35ad1d8031bf1ef9269065ec46"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-use.html"
+   text-time="2006-04-27T14:21:00.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="dd462618a34aeab7a4de58db69aa467a"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DOMBuilder.html"
+   text-time="2006-04-27T14:21:00.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b43cc103fcc6987e0c5232c86e2b4e78"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-summary.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="d11bf4742afa9dcd0eb90b8b302cee3d"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-tree.html"
+   text-time="2006-04-27T14:21:01.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="be98537732dff9cfaeb3d560ceeafe6c"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXHandler.html"
+   text-time="2006-04-27T14:21:00.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fd59d7cac4f36e090c92ec59ba7d767a"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

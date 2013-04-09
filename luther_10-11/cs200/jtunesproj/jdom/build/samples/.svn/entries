@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/samples"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="catalog.xsl"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="441fb9f2ea4eb29beb6389ed8dbff638"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="WarReader.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="cc1d3206e08d615182ff3b112ab2c0c1"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilderTestEntity2.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="9be7ebaec5ad40ccc4eb9e479e81a6c5"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DescendantDemo.class"
+   text-time="2006-04-27T14:20:51.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="75b5cf24c1bcb3bd15d53a7ef14b947d"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="XSLTransform.java"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="a0f9e4321a2a5a416fd08f63f21800b0"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XPathReader.java"
+   text-time="2006-04-27T14:20:52.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="21dd7bc23d2c6f28a708309c3d03bc49"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilderDemo.java"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b25e020a2d890b9db55c6cc18d08e1ac"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   name="sax"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="WarReader.java"
+   text-time="2006-04-27T14:20:51.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="a1196f543d170f0480651dd8cf5165a3"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="contents.xml"
+   text-time="2006-04-27T14:20:52.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="7ac59e6d28f9b5d323ac95cd5809c96b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DescendantDemo.java"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="21a61b9b1b1a336075319917fa34997c"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilderTestEntity.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="e5ad995afe25d9529c8b7623ee545e89"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XSLTransform.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="d3f57e6e19a0514bb9f0dd853c1bc0f4"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="catalog.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="6562491ecc0ef575dd259f369bc54ee0"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilderTestEntity.dtd"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="bf2a8a805f3c37c2798eee54b1473be2"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXBuilderDemo.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="80b980f04223fd371d38299188bb4e11"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="cdata.xml"
+   text-time="2006-04-27T14:20:52.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="880e70329d9ca24e176dffe6da005579"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XPathReader.class"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="5248830f62125f480721bcf1b6b8470e"
+   last-author="ranumdav"
+   kind="file"
+   prop-time="2006-09-07T16:03:21.000000Z"/>
+<entry
+   committed-rev="3829"
+   name="web.xml"
+   text-time="2006-04-27T14:20:52.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="f9dd00194474079833bb374d5acbba0d"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="inline.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8c7c8eb1acf538054546f7f83d1366be"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="namespaces.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="5bd1a0c4d6dc36e0d2759933343c8e22"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="fibo.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="462ce190a211244da93517fb4726572f"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="testNamespaces.xml"
+   text-time="2006-04-27T14:20:50.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="38028ff6723655e58a6265c40da468ba"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

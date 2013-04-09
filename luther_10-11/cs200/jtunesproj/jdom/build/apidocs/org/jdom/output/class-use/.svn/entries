@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/output/class-use"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="XMLOutputter.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="1d6253a748cc2ef644b799e0a544ef3e"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMLocator.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="47eea90d9592152e484adaea523ef092"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLOutputter.NamespaceStack.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="ff7c8de1e9e91dcb6df59bf29333fd89"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Format.TextMode.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="200e4bb678ca1691a72be6be0ca2d303"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="EscapeStrategy.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="65dc66041d84673c6c28ea92ba03c344"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXOutputter.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8f59e3f2eb6988d6304fbe04cd357e7b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Format.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="c4ca491ee31738c5fa2cfdaf49b2e508"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DOMOutputter.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="4a184823f8b3de6fd70b510bb85b2da4"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

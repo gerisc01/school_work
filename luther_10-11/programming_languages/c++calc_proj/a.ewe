@@ -1,0 +1,39 @@
+#This is a set up code for the program
+zero := 0
+one := 1
+memory := 0
+sp := 99
+prompt := "Please enter an integer..."
+writeStr(prompt)
+readInt(x)
+A := x
+sp := sp + one
+M[sp+0] := A
+writeStr(prompt)
+readInt(x)
+A := x
+sp := sp + one
+M[sp+0] := A
+A := M[sp+0]
+sp := sp - one
+B := M[sp+0]
+A := A+B
+M[sp+0] := A
+writeStr(prompt)
+readInt(x)
+A := x
+sp := sp + one
+M[sp+0] := A
+A := M[sp+0]
+sp := sp - one
+B := M[sp+0]
+A := A+B
+M[sp+0] := A
+s := "The result is "
+writeStr(s)
+writeInt(M[100])
+halt
+equ zero M[0] equ one M[1]
+equ memory M[2] equ sp M[3]
+equ A M[4] equ B M[5]
+equ s M[10] equ prompt M[31] equ x M[30]

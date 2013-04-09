@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/xpath/class-use"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="XPath.html"
+   text-time="2006-04-27T14:21:02.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8e81f75448483a732260e2ebe781bba9"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/transform"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   name="class-use"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="XSLTransformException.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b9637b30c9f02c28fa3a07ff78125989"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-frame.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="eb26e28a7bc73d048251ec0d7a687ec0"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-use.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="e6b901f507d63d2b35f878389539ed80"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-summary.html"
+   text-time="2006-04-27T14:21:00.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8227822696fbd14fd3bad186f370c80c"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMResult.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="524e7c194a06ea44b2cce53baa49c06b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-tree.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="ad9518a4d9f085dd02f9b821f0d87b3c"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XSLTransformer.html"
+   text-time="2006-04-27T14:20:57.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b8b3f01b22fd0e75fdccfb5d9a19a42d"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMSource.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b7659c09c516f920883c3baa269c29af"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

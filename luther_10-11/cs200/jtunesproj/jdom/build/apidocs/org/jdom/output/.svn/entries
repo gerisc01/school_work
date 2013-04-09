@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/output"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   name="class-use"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="XMLOutputter.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="d8735a6ec8bbed15c5d1f8b2d41fa1cd"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMLocator.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8afc2b5be24993786c4b8b039b9741e0"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XMLOutputter.NamespaceStack.html"
+   text-time="2006-04-27T14:21:10.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="81b1ec36498e87c5bb38d04df894fbf2"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Format.TextMode.html"
+   text-time="2006-04-27T14:21:10.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="2fc3ff32c4300e7a297531c6acbd793e"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="EscapeStrategy.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fa1bfe857a9c64fb81de1686ad4382c2"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-frame.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="a4eb512e91c3e8195ddbd33de68b3553"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-use.html"
+   text-time="2006-04-27T14:21:10.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="3c6cb3fd0c01d1254f267a942250b70b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-summary.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="e79f9a07c8446f8accbae483c323571f"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="SAXOutputter.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="2e5ae9b57de60da6467720faab392d01"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Format.html"
+   text-time="2006-04-27T14:21:10.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="8e111bfac71329890a18e7a587702d2a"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-tree.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="68cbf695572dd222bc1372a861f5f741"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="DOMOutputter.html"
+   text-time="2006-04-27T14:21:11.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="a5aee19d0911131167236896f16a53fa"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

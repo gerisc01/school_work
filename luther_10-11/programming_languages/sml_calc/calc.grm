@@ -1,0 +1,58 @@
+(* calc.grm - parser spec *)
+
+open calcAS;
+
+%%
+%name calc (* calc becomes a prefix in functions *)
+%verbose
+%eop EOF
+%pos int
+%nodefault
+%pure (* no side-effects in actions *)
+
+%term EOF
+    | LParen
+    | RParen
+    | Plus
+    | Minus
+    | Times
+    | Div
+    | Store
+    | Recall
+    | Int of int
+
+
+%nonterm Prog of AST
+       | Expr of AST
+       | Term of AST
+       | StoreIt of AST
+       | NegFactor of AST
+       | Factor of AST
+
+%%
+
+Prog : Expr                               (Expr)
+
+Expr : Expr Plus Term                     (add'(Expr,Term))
+     | Expr Minus Term                    (sub'(Expr,Term))
+     | Term                               (Term)
+
+Term : Term Times StoreIt                 (prod'(Term,StoreIt))
+     | Term Div StoreIt                   (div'(Term,StoreIt))
+     | StoreIt                            (StoreIt)
+
+StoreIt : NegFactor Store                 (store'(NegFactor))
+        | NegFactor                       (NegFactor)
+
+NegFactor : Minus NegFactor               (negate'(NegFactor))
+          | Factor                        (Factor)
+                        
+Factor : Int                              (integer'(Int))
+       | LParen Expr RParen               (Expr)
+       | Recall                           (recall')
+
+
+
+
+
+

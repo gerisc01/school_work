@@ -1,0 +1,365 @@
+
+state 0:
+
+	Prog : . Expr 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	Prog	goto 22
+	Expr	goto 5
+	Term	goto 4
+	StoreIt	goto 3
+	NegFactor	goto 2
+	Factor	goto 1
+
+	.	error
+
+
+state 1:
+
+	NegFactor : Factor .  (reduce by rule 10)
+
+	EOF	reduce by rule 10
+	RParen	reduce by rule 10
+	Plus	reduce by rule 10
+	Minus	reduce by rule 10
+	Times	reduce by rule 10
+	Div	reduce by rule 10
+	Store	reduce by rule 10
+
+
+	.	error
+
+
+state 2:
+
+	StoreIt : NegFactor . Store 
+	StoreIt : NegFactor .  (reduce by rule 8)
+
+	EOF	reduce by rule 8
+	RParen	reduce by rule 8
+	Plus	reduce by rule 8
+	Minus	reduce by rule 8
+	Times	reduce by rule 8
+	Div	reduce by rule 8
+	Store	shift 10
+
+
+	.	error
+
+
+state 3:
+
+	Term : StoreIt .  (reduce by rule 6)
+
+	EOF	reduce by rule 6
+	RParen	reduce by rule 6
+	Plus	reduce by rule 6
+	Minus	reduce by rule 6
+	Times	reduce by rule 6
+	Div	reduce by rule 6
+
+
+	.	error
+
+
+state 4:
+
+	Expr : Term .  (reduce by rule 3)
+	Term : Term . Times StoreIt 
+	Term : Term . Div StoreIt 
+
+	EOF	reduce by rule 3
+	RParen	reduce by rule 3
+	Plus	reduce by rule 3
+	Minus	reduce by rule 3
+	Times	shift 12
+	Div	shift 11
+
+
+	.	error
+
+
+state 5:
+
+	Prog : Expr .  (reduce by rule 0)
+	Expr : Expr . Plus Term 
+	Expr : Expr . Minus Term 
+
+	EOF	reduce by rule 0
+	Plus	shift 14
+	Minus	shift 13
+
+
+	.	error
+
+
+state 6:
+
+	Factor : Int .  (reduce by rule 11)
+
+	EOF	reduce by rule 11
+	RParen	reduce by rule 11
+	Plus	reduce by rule 11
+	Minus	reduce by rule 11
+	Times	reduce by rule 11
+	Div	reduce by rule 11
+	Store	reduce by rule 11
+
+
+	.	error
+
+
+state 7:
+
+	Factor : Recall .  (reduce by rule 13)
+
+	EOF	reduce by rule 13
+	RParen	reduce by rule 13
+	Plus	reduce by rule 13
+	Minus	reduce by rule 13
+	Times	reduce by rule 13
+	Div	reduce by rule 13
+	Store	reduce by rule 13
+
+
+	.	error
+
+
+state 8:
+
+	NegFactor : Minus . NegFactor 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	NegFactor	goto 15
+	Factor	goto 1
+
+	.	error
+
+
+state 9:
+
+	Factor : LParen . Expr RParen 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	Expr	goto 16
+	Term	goto 4
+	StoreIt	goto 3
+	NegFactor	goto 2
+	Factor	goto 1
+
+	.	error
+
+
+state 10:
+
+	StoreIt : NegFactor Store .  (reduce by rule 7)
+
+	EOF	reduce by rule 7
+	RParen	reduce by rule 7
+	Plus	reduce by rule 7
+	Minus	reduce by rule 7
+	Times	reduce by rule 7
+	Div	reduce by rule 7
+
+
+	.	error
+
+
+state 11:
+
+	Term : Term Div . StoreIt 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	StoreIt	goto 17
+	NegFactor	goto 2
+	Factor	goto 1
+
+	.	error
+
+
+state 12:
+
+	Term : Term Times . StoreIt 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	StoreIt	goto 18
+	NegFactor	goto 2
+	Factor	goto 1
+
+	.	error
+
+
+state 13:
+
+	Expr : Expr Minus . Term 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	Term	goto 19
+	StoreIt	goto 3
+	NegFactor	goto 2
+	Factor	goto 1
+
+	.	error
+
+
+state 14:
+
+	Expr : Expr Plus . Term 
+
+	LParen	shift 9
+	Minus	shift 8
+	Recall	shift 7
+	Int	shift 6
+
+	Term	goto 20
+	StoreIt	goto 3
+	NegFactor	goto 2
+	Factor	goto 1
+
+	.	error
+
+
+state 15:
+
+	NegFactor : Minus NegFactor .  (reduce by rule 9)
+
+	EOF	reduce by rule 9
+	RParen	reduce by rule 9
+	Plus	reduce by rule 9
+	Minus	reduce by rule 9
+	Times	reduce by rule 9
+	Div	reduce by rule 9
+	Store	reduce by rule 9
+
+
+	.	error
+
+
+state 16:
+
+	Expr : Expr . Plus Term 
+	Expr : Expr . Minus Term 
+	Factor : LParen Expr . RParen 
+
+	RParen	shift 21
+	Plus	shift 14
+	Minus	shift 13
+
+
+	.	error
+
+
+state 17:
+
+	Term : Term Div StoreIt .  (reduce by rule 5)
+
+	EOF	reduce by rule 5
+	RParen	reduce by rule 5
+	Plus	reduce by rule 5
+	Minus	reduce by rule 5
+	Times	reduce by rule 5
+	Div	reduce by rule 5
+
+
+	.	error
+
+
+state 18:
+
+	Term : Term Times StoreIt .  (reduce by rule 4)
+
+	EOF	reduce by rule 4
+	RParen	reduce by rule 4
+	Plus	reduce by rule 4
+	Minus	reduce by rule 4
+	Times	reduce by rule 4
+	Div	reduce by rule 4
+
+
+	.	error
+
+
+state 19:
+
+	Expr : Expr Minus Term .  (reduce by rule 2)
+	Term : Term . Times StoreIt 
+	Term : Term . Div StoreIt 
+
+	EOF	reduce by rule 2
+	RParen	reduce by rule 2
+	Plus	reduce by rule 2
+	Minus	reduce by rule 2
+	Times	shift 12
+	Div	shift 11
+
+
+	.	error
+
+
+state 20:
+
+	Expr : Expr Plus Term .  (reduce by rule 1)
+	Term : Term . Times StoreIt 
+	Term : Term . Div StoreIt 
+
+	EOF	reduce by rule 1
+	RParen	reduce by rule 1
+	Plus	reduce by rule 1
+	Minus	reduce by rule 1
+	Times	shift 12
+	Div	shift 11
+
+
+	.	error
+
+
+state 21:
+
+	Factor : LParen Expr RParen .  (reduce by rule 12)
+
+	EOF	reduce by rule 12
+	RParen	reduce by rule 12
+	Plus	reduce by rule 12
+	Minus	reduce by rule 12
+	Times	reduce by rule 12
+	Div	reduce by rule 12
+	Store	reduce by rule 12
+
+
+	.	error
+
+
+state 22:
+
+
+	EOF	accept
+
+
+	.	error
+
+95 of 142 action table entries left after compaction
+27 goto table entries

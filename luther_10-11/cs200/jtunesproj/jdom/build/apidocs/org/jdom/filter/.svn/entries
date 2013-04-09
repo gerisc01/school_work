@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/filter"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   name="class-use"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="ElementFilter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b8bf477d6509d526c759719382f29277"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="ContentFilter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="051c9ffd0a3f611bf18d8d313bcf53c4"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-frame.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="7e76e5a012ba5a4bdb1c1a54024610a1"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Filter.html"
+   text-time="2006-04-27T14:21:05.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="435b90891c3b2a2239bca5f194c49192"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-use.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="45786795b523f1a55b637a9a8316565e"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-summary.html"
+   text-time="2006-04-27T14:21:05.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="fe67113f13375f95d17dbadab6f29560"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-tree.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="b8a056054fbf7a6a8c6fe8cf614468a6"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="AbstractFilter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="342e52106e14d858f26a07aaecdafd1d"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

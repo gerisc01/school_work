@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/filter/class-use"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="ElementFilter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="73ba53464985a81f496fcc39a2aadda8"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="ContentFilter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="c3848abb678b37b84c32e2ad89717209"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="Filter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="9abed48558e1f91935a41e33052c7e89"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="AbstractFilter.html"
+   text-time="2006-04-27T14:21:04.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="55a50a453b3b9a42d1752d82e43b04c4"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/xpath"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   name="class-use"
+   kind="dir"/>
+<entry
+   committed-rev="3829"
+   name="package-frame.html"
+   text-time="2006-04-27T14:21:02.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="f7804a286e301d19c5d0c3c16967f54c"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XPath.html"
+   text-time="2006-04-27T14:21:02.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="99a5e5436d879b316548e86cb346091b"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-use.html"
+   text-time="2006-04-27T14:21:02.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="e4c70cae847d8861f02e1e52e9bc0041"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-summary.html"
+   text-time="2006-04-27T14:21:02.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="6779115bc0517932a3fb19343b6740b4"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="package-tree.html"
+   text-time="2006-04-27T14:21:02.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="7374f79b1da8c95cf9caec4e19cd5fa8"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

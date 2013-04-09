@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3829"
+   name=""
+   committed-date="2007-02-08T16:52:23.028113Z"
+   url="http://knuth.luther.edu/repos/DavidHomeDir/CourseDirectory/CS200/jdom-1.0/build/apidocs/org/jdom/transform/class-use"
+   last-author="ranumdav"
+   kind="dir"
+   revision="3829"/>
+<entry
+   committed-rev="3829"
+   name="XSLTransformException.html"
+   text-time="2006-04-27T14:20:59.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="dd98ed2ffe1461490ca35dcce2403703"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMResult.html"
+   text-time="2006-04-27T14:20:59.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="1d82e4a2f13ad725c57b66dedc9bd9a6"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="XSLTransformer.html"
+   text-time="2006-04-27T14:20:58.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="96c9997dfc3f91bc496a5d6c4f599962"
+   last-author="ranumdav"
+   kind="file"/>
+<entry
+   committed-rev="3829"
+   name="JDOMSource.html"
+   text-time="2006-04-27T14:21:00.000000Z"
+   committed-date="2007-02-08T16:52:23.028113Z"
+   checksum="62955600f7ad1c306954b7e15a10d1e1"
+   last-author="ranumdav"
+   kind="file"/>
+</wc-entries>

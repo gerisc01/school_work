@@ -1,0 +1,2 @@
+Skeleton 5
+ad"calc"h6egp1d"RegisterAllocation"Cegp1d"calcAS"f4d"OS"d"Int"d"Option"d"TextIO"aä¢calcLrVals"jh1aä¢Token"gp2ä¢LrParser"ÿ"gp1e"calcLrValsFun"aä¢calcLex"jh1aä¢Tokens"gp2ÿÿ‚gp1e"calcLexFun"ad"calcParser"jh3ad"Lex"gp1ÿ‚aÿ-gp1ÿ-aä¢ParserData"gp2ÿÿƒ(gp1e"Join"N
