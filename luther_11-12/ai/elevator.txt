@@ -1,0 +1,251 @@
+(deffacts initial_condition
+    (topFloor 20)
+    (floor 2)
+    (door closed)
+    (direction up)
+    (callButton 2 up)
+    (callButton 4 up)
+    (callButton 5 down)
+    (callButton 3 down)
+    (callButton 1 up)
+    (insideButton 6)
+    (insideButton 1))
+
+(defrule insideButtonUp
+    (declare (salience 80))
+    ?insidebuttonfact <- (insideButton ?buttonFloor)
+    (floor ?floor)
+    (direction up)
+    (test (> ?buttonFloor ?floor))
+    =>
+    (assert (inside button is pushed))
+    (assert (the elevator is going up toward ?buttonFloor)))
+    
+
+(defrule insideButtonDown
+    (declare (salience 80))
+    ?insidebuttonfact <- (insideButton ?buttonFloor)
+    (floor ?floor)
+    (direction down)
+    (test (< ?buttonFloor ?floor))
+    =>
+    (assert (inside button is pushed))
+    (assert (the elevator is going down toward ?buttonFloor)))
+    
+(defrule callButtonUp
+    (declare (salience 80))
+    ?callbuttonfact <- (callButton ?buttonFloor up)
+    (direction up)
+    (floor ?floor)
+    ?directionfact <- (direction ?direction)
+    =>
+    (assert (the elevator is going up toward ?buttonFloor)))
+    
+(defrule callButtonDown
+    (declare (salience 80))
+    ?callbuttonfact <- (callButton ?buttonFloor down)
+    (floor ?floor)
+    (direction down)
+    ?directionfact <- (direction ?direction)
+    =>
+    (assert (the elevator is going down toward ?buttonFloor)))
+
+(defrule stopInsideElevator
+    (declare (salience 70))
+    ?stopElevatorFact <- (the elevator is going ?direction toward ?buttonFloor)
+    ?insideButton <- (insideButton ?buttonFloor)
+    (floor ?buttonFloor)
+    ?insideButtonPushed <- (inside button is pushed)
+    =>
+    (retract ?insideButton)
+    (retract ?insideButtonPushed)
+    (retract ?stopElevatorFact)
+    (assert (going ?direction look for switch))
+    (assert (door open at ?buttonFloor for 30 seconds on the way ?direction)))
+    
+(defrule stopOutsideElevatorUp
+    (declare (salience 70))
+    ?stopElevatorFact <- (the elevator is going up toward ?buttonFloor)
+    ?floorfact <- (floor ?floor)
+    ?callButton <- (callButton ?floor up)
+    =>
+    (retract ?callButton)
+    (assert (door open at ?floor for 30 seconds on the way up)))
+
+(defrule stopOutsideElevatorDown
+    (declare (salience 70))
+    ?stopElevatorFact <- (the elevator is going down toward ?buttonFloor)
+    ?floorfact <- (floor ?floor)
+    ?callButton <- (callButton ?floor down)
+    =>
+    (retract ?callButton)
+    (assert (door open at ?floor for 30 seconds on the way down)))
+    
+(defrule retractUpCall
+    (declare (salience 55))
+    (floor ?currentFloor)
+    ?elevatorfact <- (the elevator is going up toward ?floor)
+    (test (> ?currentFloor ?floor))
+    =>
+    (retract ?elevatorfact))
+
+(defrule retractDownCall
+    (declare (salience 55))
+    (floor ?currentFloor)
+    ?elevatorfact <- (the elevator is going down toward ?floor)
+    (test (< ?currentFloor ?floor))
+    =>
+    (retract ?elevatorfact))  
+    
+(defrule moveElevatorUp
+    (declare (salience 53))
+    ?elevatorUpFact <- (the elevator is going up toward ?buttonFloor)
+    ?floorfact <- (floor ?floor)
+    (test (> ?buttonFloor ?floor))
+    =>
+    (assert (floor (+ ?floor 1)))
+    (retract ?floorfact)
+    (printout t "at floor "?floor", going up" crlf)
+    (assert (the elevator is going up toward ?buttonFloor)))
+
+(defrule moveElevatorDown
+    (declare (salience 53))
+    ?elevatorUpFact <- (the elevator is going down toward ?buttonFloor)
+    ?floorfact <- (floor ?floor)
+    (test (< ?buttonFloor ?floor))
+    =>
+    (retract ?elevatorUpFact)
+    (assert (floor (- ?floor 1)))
+    (retract ?floorfact)
+    (printout t "at floor "?floor", going down" crlf)
+    (assert (the elevator is going down toward ?buttonFloor)))
+
+(defrule openDoorRemoveExtraCall
+    (declare (salience 70))
+    (door open at ?floor for 0 seconds on the way ?direction)
+    ?callButton <- (callButton ?floor ?Diffdirection)
+    =>
+    (retract ?callButton))
+    
+(defrule close_door
+    (declare (salience 65))
+    ?opendoorfact <- (door open at ?floor for 0 seconds on the way ?direction)
+    =>
+    (retract ?opendoorfact)
+    (printout t "door is closing" crlf)
+    (assert (door closed)))
+
+(defrule pause
+    (declare (salience 60))
+    ?opendoorfact <- (door open at ?floor for ?seconds seconds on the way ?direction)
+    =>
+    (printout t "door is open for " ?seconds " seconds at floor " ?floor crlf)
+    (retract ?opendoorfact)
+    (assert (door open at ?floor for (- ?seconds 10) seconds on the way ?direction)))
+
+
+
+
+
+(defrule findTopDownFloor
+    (declare (salience 50))
+    ?callButtonFact <- (callButton ?floor down)
+    ?findFloorFact <- (check callButton down on floor ?floor)
+    ?findExtraStatement <- (the elevator is going down toward ?floor)
+    =>
+    (retract ?findExtraStatement)
+    (retract ?findFloorFact)
+    (retract ?callButtonFact)
+    (assert (callButton ?floor up))
+    (assert (the elevator is going up toward ?floor)))
+
+(defrule lowerTopDownFloor
+    (declare (salience 40))
+    ?findFloorFact <- (check callButton down on floor ?floor)
+    =>
+    (retract ?findFloorFact)
+    (assert (check callButton down on floor (- ?floor 1))))
+    
+
+(defrule switchToDown_UpFloorsLeft
+    (declare (salience 30))
+    ?directionFact <- (direction ?direction)
+    ?switchfact <- (going up look for switch)
+    (floor ?floor)
+    (callButton ?floorButton up)
+    (not (test (> ?floorButton ?floor)))
+    =>
+    (retract ?switchfact)
+    (retract ?directionFact)
+    (assert (direction down))
+    (assert (check callButton down on floor 20)))
+
+(defrule switchToDown_NoUpFloorsLeft
+    (declare (salience 20))
+    ?directionFact <- (direction ?direction)
+    ?switchfact <- (going up look for switch)
+    (floor ?floor)
+    (not (callButton ?floorButton up))
+    (callButton ?downFloorButton down)
+    =>
+    (retract ?switchfact)
+    (retract ?directionFact)
+    (assert (direction down))
+    (assert (check callButton down on floor 20)))
+   
+   
+   
+   
+    
+(defrule findBottomUpFloor
+    (declare (salience 50))
+    ?callButtonFact <- (callButton ?floor up)
+    ?findFloorFact <- (check callButton up on floor ?floor)
+    ?findExtraStatement <- (the elevator is going up toward ?floor)
+    =>
+    (retract ?findExtraStatement)
+    (retract ?findFloorFact)
+    (retract ?callButtonFact)
+    (assert (callButton ?floor down))
+    (assert (the elevator is going down toward ?floor)))
+
+(defrule raiseBottomUpFloor
+    (declare (salience 40))
+    ?findFloorFact <- (check callButton up on floor ?floor)
+    =>
+    (retract ?findFloorFact)
+    (assert (check callButton down on floor (+ ?floor 1))))
+    
+
+(defrule switchToUp_DownFloorsLeft
+    (declare (salience 30))
+    ?directionFact <- (direction ?direction)
+    ?switchfact <- (going down look for switch)
+    (floor ?floor)
+    (callButton ?floorButton down)
+    (not (test (< ?floorButton ?floor)))
+    =>
+    (retract ?switchfact)
+    (retract ?directionFact)
+    (assert (direction up))
+    (assert (check callButton up on floor 0)))
+
+(defrule switchToUp_NoDownFloorsLeft
+    (declare (salience 20))
+    ?directionFact <- (direction ?direction)
+    ?switchfact <- (going down look for switch)
+    (floor ?floor)
+    (not (callButton ?floorButton down))
+    (callButton ?downFloorButton up)
+    =>
+    (retract ?switchfact)
+    (retract ?directionFact)
+    (assert (direction up))
+    (assert (check callButton up on floor 0)))
+    
+(defrule breakCycle
+    (declare (salience 41))
+    ?checkbuttonfact <- (check callButton ?direction on floor -1)
+    =>
+    (retract ?checkbuttonfact))
+    

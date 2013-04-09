@@ -1,0 +1,5 @@
+1. project(Feed, [Name])
+2. sort(project(Client, [Name, City]),(Client, Name))
+3. project(extend(Ration,WtGain*.4535,WtGainKG),[Name,WtGainKG])
+4. project(rename(join(Feed, Client),(Client, Name, ClientName),(ClientName,Name)))
+5. project(rename(product(product(project(RationFeed, FeedType = 1),project(Feed,Name)),project(Ration, Name)),(Feed,Name,FeedName)),[FeedName,Name])

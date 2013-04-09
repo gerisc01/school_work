@@ -1,0 +1,6 @@
+1. Select Name from Feed;
+2. Select Name, City from Client ORDER BY State,Name;
+3. Select FeedNum,Name from Feed WHERE ClientID = 0 ORDER BY FeedNum;
+4. Select Client.ClientNum,Client.Name,Feed.FeedNum,Feed.Name from Client,Feed;
+5. Select Feed.FeedNum,Feed.Name,Ration.RationNum from Feed,Ration,RationFeed WHERE Ration.RationID = RationFeed.RationID and Feed.FeedID = RationFeed.FeedID and Feed.ClientID = Ration.ClientID and RationFeed.FeedType = 1 ORDER BY RationNum,FeedNum,Feed.Name;
+6. Select Ration.RationNum,Ration.Name,Feed.FeedNum,Feed.Name,FeedAttribute.Value,FeedAttribType.Description from FeedAttribute,FeedAttribType,Ration,Feed,RationFeed,Client WHERE RationFeed.FeedType = 1 and Client.Name = 'Arthur Clarke' and FeedAttribute.FeedID = Feed.FeedID and FeedAttribute.FeedAttribTypeID = FeedAttribType.FeedAttribTypeID and Feed.ClientID = Client.ClientID and Feed.FeedID = RationFeed.FeedID and Client.ClientID = Ration.ClientID and Ration.RationID = RationFeed.RationID ORDER BY RationNum,FeedNum,Ration.Name,Feed.Name;
