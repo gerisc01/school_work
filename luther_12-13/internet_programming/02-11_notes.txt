@@ -1,0 +1,69 @@
+02/11/13
+----------------------
+- Forms (inside the form tag)
+    - input types: text, checkbox, radio, 
+    - Using a label tag might let you click the text to click the checkbox as well (look up how to do...)
+    - input's are a name value pair
+        - ie: name = vehicle, value = bike or car
+    - <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="mazda">Mazda</option>
+      </select>
+        - That will make a drop down list
+    - for each form you have an action and a method
+        - method will be GET or POST
+            - POST will send it behind the scenes in the post message body and GET will return in the URL
+        - action will be something similar to "myprog.cgi"
+            - This runs a program from your site
+- CGI Programming
+    - Use the Query String variable to get your data
+    - example
+        #!/usr/bin/python
+
+        import os
+
+        print "Content-type: text/html" #important to tell the browser what kind of data is coming
+        print "\n\n" #important to also separate by a pair of newline char's
+
+        print "<html>"
+        print "<head><title>...</title>"
+        print "<body><pre>"
+        x = os.popen("env")
+        print x.read()
+        print "</pre></body>"
+        print "</html>"
+
+02/13/11
+----------------------------
+Project 1
+    - task 1
+    - task 2
+Project 2
+    - task 1
+    - task 2
+    - ...
+    - task n
+
+Input 
+    - dropdown box for project name
+    - text input for task name
+    - maybe a priority box
+    - maybe a due date?
+    - Then submit
+
+What will we use to store this information?
+    - a module named YAML
+        - indents are important
+        - key value pairs using colons
+
+
+import yaml
+f = open('todo.dat','r')
+d = yaml.load(f) #d is your dictionary
+yaml.dump will put it back to another easily editable text file
+
+for today, just open a file and use the yaml load method to create your page
+
+dict['a'] = 'apple'
+print "%(a)s" % dict
+    apple

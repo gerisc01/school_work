@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    color: #330033;
+    font-family: veranda;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+p, ul, ol {
+    width: 550px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ol {
+    background-color: #FFCC99;
+}
+
+ul {
+    background-color: #CCFFCC;
+}
+
+li {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #33ff33;
+}
+
+li:nth-child(odd){
+    width: 500px;
+    background-color: white;
+}

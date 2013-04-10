@@ -13,9 +13,10 @@ def isPal(s):
 
 def main():
     s = input("Please enter a word(DONE to quit):")
-    s.lower()
+    s = s.lower()
     while s != "done":
-        print(isPal(s))
+        isPal(s)
         s = input("Please enter a word(DONE to quit):")
+        s = s.lower()
         
 main()

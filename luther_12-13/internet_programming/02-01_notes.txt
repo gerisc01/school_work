@@ -1,0 +1,27 @@
+- dns = domain name server
+- The internet is just a interconnected series of hosts
+- Every host has a unique numeric ip address
+- I believe on windows you can do a "mslookup" on a website to find its internal info
+- http = hyper text transfer protocol
+    -part of making a request for a web page
+- http operates on port 80
+- smpt is on port 25 etc.
+
+HTML 5
+---------------------------------------------------------------------------------------
+- tag based language (almost always balanced with closing tags)
+- head tag is where you put css and javascript type stuff
+- to create a heading, use an 'h' tag (h1-h6... they get progressively smaller)
+- 'p' for paragraph
+- 'ul' stands for unnumbered list (on the other hand, 'ol' stand for numbered list)
+    - it then contains 'li' tags underneath it
+- the 'a' tag is more of an attribute tag, used for referencing stuff
+- 'div' and 'span' are both invisible tags
+    - 'div' is a block element -- the stuff begins and ends on its own line
+    - 'span' is the same, but is an endline element, so there are no line breaks
+
+Homework for Monday (02-04)
+---------------------------
+- Just start making a "homepage" for yourself just using stuff we've done in class (kinda...)
+- http://knuth.luther.edu/~gerisc01/index.html
+- public directory should be wrx and rx for everyone else (755)

@@ -1,0 +1,56 @@
+02/04/13
+--------------------
+- content: html
+- look and feel: css
+- behavior: javascript
+
+- html elements can be categorized two ways
+    - block: creates blocks on the page (duh...)
+        - ul, ol, table, pre, div, form, headers
+    - inline
+        - img, a, span
+
+- Reserved Characters
+    - > (&gt;), <,(&lt;)
+
+- div's allow us to make layout for a page (ex: header, content, sidebar, footer), especially in conjuction with CSS
+    - different div for each section
+
+- Next homepage will be using 2 columns with header and a footer format using CSS (probably due on Fri)
+
+- There are now audio, video and canvas tags with html5
+
+02/06/13
+---------------------
+- Want to link to CSS stylesheets so that designers can make the page look pretty without having to mess with the content
+- CSS
+    - selectors at their simplest level are html tags
+    - example properties: color, font style, alignment, width, height, etc.
+    - another example selector: p a { } -- which means any "a" tag that is inside a "p" tag
+    - divs
+        - div { } matches every div
+        - #d1 { } only matches the div where id = d1
+    - Using class values
+        - For the tags with <li class="low">, <li class="high">
+            - You can then use a selector as li.low to change just the li items where class="low"
+    - For font family, you can list multiple fonts and it will try them from left to right, until it finds one it can use
+- How is CSS used?
+    - Display
+        - block, inline, none
+            - none makes some elements disappear
+            - If you wanted to make a list flow as "item 1 item 2 item 3" use display: inline;
+    - Position
+        - static
+            - Elements Render in Order
+        - relative 
+            - left:20 would move the object 20 px's left from its normal left position 
+        - absolute
+            - positions relative to the containing object
+            - useful for say a sidebar that you don't want to move when you scroll
+        - Almost all positional values can be specified in terms of px or %
+    - Float
+
+For Friday Modify the homepage
+- Header that spans the whole top of the page
+- Two columns in the middle
+- Footer on the bottom

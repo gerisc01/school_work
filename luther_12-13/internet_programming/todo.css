@@ -1,0 +1,52 @@
+#header{
+    background-color: yellow;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content{
+    margin-left: 5%;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+#new_task{
+    margin-top: 50px;
+    display: relative;
+}
+
+h2 {
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color: purple;
+}
+
+h3 {
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+ul {
+   margin-top: 0px;
+   padding-left: 20px;
+}
+
+span.Low {
+    color: blue;
+}
+
+span.Normal {
+
+}
+
+span.High {
+    color: green;
+}
+
+span.overdue {
+    color: red;
+    font-weight: bold;
+}

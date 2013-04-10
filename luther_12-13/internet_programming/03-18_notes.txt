@@ -1,0 +1,10 @@
+03/18/13
+----------------------
+- Testing!!
+	- selenium is a python package that can we used to test this (also for java, c# and ruby)
+		- supports firefox, chrome, opera, etc.
+	from selenium import webdriver
+	f = webdriver.Firefox()
+	f.get(url)
+	buttons = f.find_elements_by_tag_name('button')
+	

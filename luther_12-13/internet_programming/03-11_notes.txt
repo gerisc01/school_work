@@ -1,0 +1,26 @@
+03/11/13
+------------------------
+- Word Ladder
+	- A four letter word only has 100 different possible words with one different letter
+		- Can generate that list of 100 possible words, and then you just need to check whether it is in the word list
+		- Has it already been used
+
+- AJAX
+	- lets your javascript program communicate with the server
+	- Can get data without going through the full refresh process
+	- Create a XMLHttpObject
+		- a javascript object that we can use to make calls to another web server
+
+	dat = new XMLHttpRequest()
+	dat.open("GET", url, true) //GET or POST; 3rd parameter is the async
+	dat.send(...)
+
+	dat.onreadystatechange = function() {
+		if (request.readyState == 3)
+			if (request.status = 200) { //successful response
+				
+			}
+	}
+
+	Now do something with this data
+

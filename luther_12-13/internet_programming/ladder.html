@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script src="wordlists.js"></script>
+		<script src="stack.js"></script>
+
+		<title>Word Ladder</title>
+	</head>
+	<body>
+		Start Word:<br><input type="text" id="startWord" />
+		<br><br>
+		End Word:<br><input type="text" id="endWord" />
+		<br><br>
+
+		<span>Word Length</span>
+		<select id="word_length">
+			<option value=3>Three</option>
+			<option value=4>Four</option>
+			<option value=5>Five</option>
+		</select><br><br>
+
+		<button onclick="startWordLadder()">Create List</button>
+		<button onclick='clearList()'>Clear</button>
+		<br><br>
+		<div id="myDiv">
+
+		</div>
+	</body>
+</html>

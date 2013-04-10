@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>
+			Syncing
+		</title>
+		<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>"
+	    <script>
+	    $.ajax({
+	    type:'get',
+	    url:'http://knuth.luther.edu/~gerisc01/sync.cgi',
+	    success:function(data) {
+	        window.location.replace("http://knuth.luther.edu/~gerisc01/newtodo.cgi");
+	    }
+	    });
+	    </script>
+	</head>
+	<body>
+		syncing...
+	</body>
+</html>

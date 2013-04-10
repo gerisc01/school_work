@@ -1,0 +1,36 @@
+02/18/13
+--------------------------
+- Security Issues
+    - Use the .htaccess file
+        - AuthType (Basic or Digest)
+        - Require valid-user
+        - AuthUserFile
+            - should be placed somewhere else that is not public facing
+            - Run the htpasswd program to create an encrypted AuthUserFile
+        - AuthName "Private"
+    - Set it up and then disable it for now...
+- Cookies
+    - Data stored in our browser so that it can then be shown to the site when we visit it again
+        - Website will remember you when you come back
+    - Content-Type: text/html
+      Set-Cookie: attribute=value [name=..., domain=..., path=..., expires=...]
+    - Get this information from the evironment variables
+        - COOKIE variable
+- Different devices, different styles
+    - fairly easy to have different css files for each of this styles
+    - <link rel="stylesheet" media="(max-device-width: 480px) href="..."/>
+    
+02/20/13
+---------------------------
+- Web Services
+    - Possible ones for todo list
+        - List project
+        - List all tasks for a project
+        - List all overdue tasks
+    - Using a REST API
+        - GET and POST messages
+    - Using a SOAP API
+        - can do using CGI, but you will use parameters to specify what you want
+        - Using JSON
+            - Can import JSON into python, and do json.dumps
+        
